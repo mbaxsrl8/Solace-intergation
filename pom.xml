@@ -34,9 +34,9 @@
             <version>6.0.4</version>
         </dependency>
         <dependency>
-            <groupId>com.solacesystems</groupId>
-            <artifactId>sol-jms</artifactId>
-            <version>10.19.0</version>
+            <groupId>org.apache.qpid</groupId>
+            <artifactId>qpid-jms-client</artifactId>
+            <version>2.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
