@@ -5,8 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>2.7.10</version>
     </parent>
     <groupId>com.mbaxsrl8.solace.example</groupId>
     <artifactId>spring.integration</artifactId>
@@ -31,7 +30,11 @@
         <dependency>
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-jms</artifactId>
-            <version>6.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.solace.spring.boot</groupId>
+            <artifactId>solace-jms-spring-boot-starter</artifactId>
+            <version>4.3.0</version>
         </dependency>
         <dependency>
             <groupId>com.solacesystems</groupId>
