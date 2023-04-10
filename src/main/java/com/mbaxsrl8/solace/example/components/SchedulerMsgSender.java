@@ -6,11 +6,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.connection.CachingConnectionFactory;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
-@Component
+//@Component
 public class SchedulerMsgSender {
     private static final Logger log = LoggerFactory.getLogger(SchedulerMsgSender.class);
     private final JmsTemplate jmsTemplate;
